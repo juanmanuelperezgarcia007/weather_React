@@ -21,7 +21,7 @@ const WeatherData = ({ data }) => {
 
         </WeatherExtraInfo>
     </div>)
-er
+
 }
 WeatherData.propTypes = {
     data: PropTypes.shape({
