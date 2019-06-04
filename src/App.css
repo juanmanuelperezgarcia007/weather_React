@@ -22,6 +22,15 @@
 .App-link {
   color: #61dafb;
 }
+.details{
+  background-color: #999;
+  height: 85vh;
+  width: calc(100% -40px);
+  overflow: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
 
 @keyframes App-logo-spin {
   from {
@@ -30,4 +39,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width:770px) {
+  .details{
+
+    height: 40vh;
+     }
 }
